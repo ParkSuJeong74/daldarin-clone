@@ -1,0 +1,23 @@
+/* default */
+* {
+    margin:0;
+    padding:0;
+}
+
+body {
+    display: block;
+}
+
+img {
+    vertical-align: middle;
+    /* height: 50px; */
+}
+
+ol, ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
