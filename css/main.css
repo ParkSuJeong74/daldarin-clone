@@ -1,13 +1,34 @@
 main {
-    width: 100%;
-    height: 1500px;
+  width: 100%;
+  height: 1500px;
 }
 
-div { 
-    background-image: url("https://www.daldarin.com/img/main_con01_bg.png");
+#main_run {
+  margin: 50px;
+  width: 100%;
+  height: 500px;
+  background-image: url("https://www.daldarin.com/img/main_visual_img01.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 500px;
 }
 
 main > img {
-    height: 50px;
+  height: 50px;
 }
+
+h3.big_msg {
+  font-size: 48px;
+  font-weight: bold;
+  font-family: "Noto Sans KR", sans-serif;
+}
+
+p.small_msg {
+  margin-top: 20px;
+  font-size: 20px;
+  font-weight: 400;
+  font-family: "Noto Sans KR", sans-serif;
+}
+
+/* https://www.daldarin.com/img/main_con01_bg.png */
 /* 커서 커짐 : https://www.daldarin.com/img/cursor_icon.png */

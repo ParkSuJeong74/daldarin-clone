@@ -1,25 +1,35 @@
 header {
-    width: 100%;
-    height: 60px;
+  width: 100%;
+  height: 60px;
 
-    display: grid;
-    grid-template-columns: 2fr 5fr 1fr;
+  display: grid;
+  grid-template-columns: 400px 1fr 100px;
 }
 
 header > .logo {
-    margin-left: 10px;
+  margin-left: 10px;
 }
 
 header > .logo > img {
-    vertical-align: top;
+  vertical-align: top;
+}
+
+header .member {
+  line-height: 20px;
 }
 
 header nav ul {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  text-align: center;
+}
+
+header nav ul li {
+  display: inline-block;
+  line-height: 55px;
 }
 
 div.member {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
 }
